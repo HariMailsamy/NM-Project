@@ -1,4 +1,4 @@
-import streamlitasst 
+import streamlit as st 
 from transformers import pipeline
 #Loadapre-trainedemotionclassificationmodelfromHuggingFaceclassifier
 =pipeline("text-classification",
